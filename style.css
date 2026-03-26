@@ -1,106 +1,92 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    
-    <div id="container">
-        <p>my loopy:</p>
-    </div>
-     <div id="container">
-        <img id="loopy" src="./image/loopyfinal.jpg" alt="loopy">
-    </div>
-</body>
-</html>
-body{
-    background-color: rgb(247, 191, 222);
+/* General styles */
+body {
+  margin: 0;
+  font-family: 'Bitcount Grid Double Ink', sans-serif;
+  background-color: #f0f0f0;
+  color: #1e1e1e;
+  text-align: center;
 }
 
-
-
-.button{
-    width: 250px;
-    display: flex;
-    justify-content: left;
-}  
-
-p{
-
-    color:#cb4e80;
-    font-size: 80px;
-    font-weight: 600;
-    font-family: myfont;
-    display: flex;
-    justify-content: center;
-    
+/* Header */
+header {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 60px 0;
+  font-size: 60px;
+  letter-spacing: 2px;
 }
 
-#loopy{
-    width: 300px;
-    opacity: 100%;
-    border:10px solid rgb(238, 158, 201);
-    
+/* Navigation buttons */
+nav {
+  margin: 20px 0;
 }
 
-#portrait{
-    width: 300px;
-    opacity: 100%;
-    border:10px solid rgb(238, 158, 201);
-    
+nav button {
+  background-color: #ae4c72;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  margin: 0 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-
-#container {
-    display: flex;
-    justify-content: center; 
-    align-items: center;  
-    gap: 150px; 
-    
+nav button:hover {
+  background-color: #814caf;
 }
 
-#portrait-img {
-    width: 400px; /* gleiche Größe wie andere Bilder */
-    border-radius: 20px;
-    align-items: center;
-    border: 5px solid rgb(238, 158, 201);
+/* Sections */
+section {
+  margin: 40px 20px;
 }
 
-.button {
-    width: 300px;
-    cursor: pointer;
-    height: auto;
+section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
-@font-face {
-    font-family: myfont;
-    src: url(./fonts/Pacifico-Regular.ttf);
+/* Project cards */
+.project {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 12px;
+  margin: 20px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
 }
 
-
-.gallery{
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 100px;
+.project img {
+  width: 100%;
+  border-radius: 8px;
 }
 
-/* transparente Box */
-.card{
-    background: rgba(197, 49, 133, 0.146);
-    backdrop-filter: blur(20px);
-    padding: 20px;
-    border-radius: 20px;
-    text-align: center;
+.project:hover {
+  transform: scale(1.05);
 }
 
-/* Bilder */
-.card img{
-    width:400px;
-    border-radius: 20px;
-    border: 20px solid rgb(238, 158, 201);
-    align-items: center;
+.project-title {
+  font-size: 20px;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  margin: 40px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Links */
+a {
+  color: #814caf;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }

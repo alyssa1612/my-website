@@ -1,40 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mypage</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>PORTFOLIO</p>
-        <p>by Alyssa</p> <br>
-        
+
+  <!-- Header -->
+  <header>Portfolio by Alyssa </header>
+
+  <!-- Navigation -->
+  <nav>
+    <button onclick="window.location.href='#Affinity Projects'">Affinity Projects</button>
+    <button onclick="window.location.href='#Other Projects'">Other projects</button>
+  </nav>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project">
+      <img src="https://via.placeholder.com/250" alt="Project 1">
+      <div class="project-title">Project 1</div>
     </div>
 
-    <div id="container">
-    <a href="./about.html">
-        <img class="button" src="./image/loopysvg.svg" alt="Loopy Button">
-    </a>
-    <a href="./portrait.html">
-        <img class="button" src="./image/portrait.svg" alt="Portrait Button">
-    </a>
-    </div>
-    
-    
-    
-    <div class="gallery">
-
-    <div class="card">
-        <img src="./image/city.png" alt="city">
-        
+    <div class="project">
+      <img src="https://via.placeholder.com/250" alt="Project 2">
+      <div class="project-title">Project 2</div>
     </div>
 
-    <div class="card">
-        <img src="./image/portrait1.jpg" alt="portrait">
-    
+    <div class="project">
+      <img src="https://via.placeholder.com/250" alt="Project 3">
+      <div class="project-title">Project 3</div>
+    </div>
+  </section>
 
-</div>
-    
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+    <p>Phone: +123-456-7890</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2026 My Portfolio
+  </footer>
+
 </body>
 </html>
