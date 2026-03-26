@@ -1,67 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Website</title>
-  <style>
-    body {
-      font-family: Arial;
-      text-align: center;
-      background-color: #f0f0f0;
-    }
-
-    h1 {
-      color: #333;
-    }
-
-    img {
-      width: 300px;
-      border-radius: 10px;
-    }
-
-    button {
-      padding: 10px 20px;
-      margin: 10px;
-      font-size: 16px;
-      border: none;
-      border-radius: 8px;
-      background-color: #4CAF50;
-      color: white;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #45a049;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mypage</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
+    <p>PORTFOLIO</p>
+        <p>by Alyssa</p> <br>
+        
+    </div>
 
-  <h1>Welcome to My Website 🎉</h1>
+    <div id="container">
+    <a href="./about.html">
+        <img class="button" src="./image/loopysvg.svg" alt="Loopy Button">
+    </a>
+    <a href="./portrait.html">
+        <img class="button" src="./image/portrait.svg" alt="Portrait Button">
+    </a>
+    </div>
+    
+    
+    
+    <div class="gallery">
 
-  <p>This is my first website on GitHub!</p>
+    <div class="card">
+        <img src="./image/city.png" alt="city">
+        
+    </div>
 
-  <!-- Image -->
-  <img src="https://via.placeholder.com/300" alt="Example Image">
+    <div class="card">
+        <img src="./image/portrait1.jpg" alt="portrait">
+    
 
-  <br><br>
-
-  <!-- Buttons -->
-  <button onclick="alert('Hello! You clicked the button!')">
-    Click Me
-  </button>
-
-  <button onclick="changeText()">
-    Change Text
-  </button>
-
-  <p id="text">This text will change</p>
-
-  <script>
-    function changeText() {
-      document.getElementById("text").innerHTML = "Text changed! 🎉";
-    }
-  </script>
-
+</div>
+    
 </body>
 </html>

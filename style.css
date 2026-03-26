@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div id="container">
+        <p>my loopy:</p>
+    </div>
+     <div id="container">
+        <img id="loopy" src="./image/loopyfinal.jpg" alt="loopy">
+    </div>
+</body>
+</html>
+body{
+    background-color: rgb(247, 191, 222);
+}
+
+
+
+.button{
+    width: 250px;
+    display: flex;
+    justify-content: left;
+}  
+
+p{
+
+    color:#cb4e80;
+    font-size: 80px;
+    font-weight: 600;
+    font-family: myfont;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#loopy{
+    width: 300px;
+    opacity: 100%;
+    border:10px solid rgb(238, 158, 201);
+    
+}
+
+#portrait{
+    width: 300px;
+    opacity: 100%;
+    border:10px solid rgb(238, 158, 201);
+    
+}
+
+
+#container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    gap: 150px; 
+    
+}
+
+#portrait-img {
+    width: 400px; /* gleiche Größe wie andere Bilder */
+    border-radius: 20px;
+    align-items: center;
+    border: 5px solid rgb(238, 158, 201);
+}
+
+.button {
+    width: 300px;
+    cursor: pointer;
+    height: auto;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(./fonts/Pacifico-Regular.ttf);
+}
+
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 100px;
+}
+
+/* transparente Box */
+.card{
+    background: rgba(197, 49, 133, 0.146);
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* Bilder */
+.card img{
+    width:400px;
+    border-radius: 20px;
+    border: 20px solid rgb(238, 158, 201);
+    align-items: center;
+}
