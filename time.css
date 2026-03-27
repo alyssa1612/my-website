@@ -1,0 +1,73 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: 'Bitcount Grid Double Ink', sans-serif;
+  background-color: #f0f0f0;
+  color: #1e1e1e;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 60px 0;
+  font-size: 60px;
+  letter-spacing: 2px;
+}
+
+/* Navigation buttons */
+nav {
+  margin: 20px 0;
+}
+
+nav button {
+  background-color: #ae4c72;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  margin: 0 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+nav button:hover {
+  background-color: #814caf;
+}
+
+/* Sections */
+section {
+  margin: 40px 20px;
+}
+
+section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+
+.project img {
+  width: 70%;
+  border-radius: 8px;
+}
+
+
+
+.project-title {
+  font-size: 20px;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+
+/* Links */
+a {
+  color: #814caf;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
